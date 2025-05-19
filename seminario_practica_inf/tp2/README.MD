@@ -9,7 +9,8 @@
 
 ## Proyecto
 
-##### FACE-ENTRY
+#### FaceEntry
+Sistema inteligente de control de asistencia y acceso que utiliza reconocimiento facial para registrar y gestionar la presencia del personal en tiempo real.
 <br>
 
 ## Tabla de contenido
