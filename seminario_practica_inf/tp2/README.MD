@@ -1,5 +1,4 @@
 ## Seminario de Práctica de Informática
-***
 ### Trabajo Práctico Nro 2
 
 ##### Titular Experto: HUGO FERNANDO FRIAS
