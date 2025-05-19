@@ -1,5 +1,5 @@
 ## Seminario de Práctica de Informática
----
+***
 ### Trabajo Práctico Nro 2
 
 ##### Titular Experto: HUGO FERNANDO FRIAS
@@ -9,11 +9,11 @@
 ##### DNI: 28.916.713
 <br></br>
 ### Proyecto 
----
+***
 ##### FACE-ENTRY
 <br></br>
 ### Tabla de contenido
----
+***
 * [Creación de la Base de Datos](#creación-base-de-datos)
 * [Instalación Scripts](#instalación-scripts)
 <br></br>
@@ -32,7 +32,7 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=<una_password> -d mysql:late
 <br></br>
 
 ### Instalación Scripts
----
+***
 Para la creación y poblado del modelo de datos se dejen ejecutar los scripts en el siguiente orden:
 
 1. `TP2_Mauricio_Borelli_01_create_database.sql`
