@@ -1,21 +1,23 @@
 ## Seminario de Práctica de Informática
 ### Trabajo Práctico Nro 2
-
 ##### Titular Experto: HUGO FERNANDO FRIAS
 ##### Profesor Titular Disciplinar: PABLO ALEJANDRO VIRGOLINI
 ##### Alumno: Mauricio David Borelli
 ##### Fecha de Entrega: 18/05/2025
 ##### DNI: 28.916.713
 <br>
+
 ## Proyecto
 
 ##### FACE-ENTRY
 <br>
+
 ## Tabla de contenido
 
 * [Creación de la Base de Datos](#creación-base-de-datos)
 * [Instalación Scripts](#instalación-scripts)
 <br>
+
 ## Creación Base de datos
 
 La creación de la base de datos se realizó utilizando una imagen docker de MySql.
