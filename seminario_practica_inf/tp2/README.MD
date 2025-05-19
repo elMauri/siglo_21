@@ -6,16 +6,16 @@
 ##### Alumno: Mauricio David Borelli
 ##### Fecha de Entrega: 18/05/2025
 ##### DNI: 28.916.713
-<br></br>
+
 ## Proyecto 
 
 ##### FACE-ENTRY
-<br></br>
+
 ## Tabla de contenido
 
 * [Creación de la Base de Datos](#creación-base-de-datos)
 * [Instalación Scripts](#instalación-scripts)
-<br></br>
+
 ## Creación Base de datos
 
 La creación de la base de datos se realizó utilizando una imagen docker de MySql. 
