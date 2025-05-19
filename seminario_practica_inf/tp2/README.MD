@@ -7,17 +7,17 @@
 ##### Fecha de Entrega: 18/05/2025
 ##### DNI: 28.916.713
 <br></br>
-### Proyecto 
-***
+## Proyecto 
+
 ##### FACE-ENTRY
 <br></br>
-### Tabla de contenido
-***
+## Tabla de contenido
+
 * [Creación de la Base de Datos](#creación-base-de-datos)
 * [Instalación Scripts](#instalación-scripts)
 <br></br>
-### Creación Base de datos
----
+## Creación Base de datos
+
 La creación de la base de datos se realizó utilizando una imagen docker de MySql. 
 
 Para levantar dicha imagen se ejecutó el siguiente comando:
@@ -31,7 +31,7 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=<una_password> -d mysql:late
 <br></br>
 
 ### Instalación Scripts
-***
+___
 Para la creación y poblado del modelo de datos se dejen ejecutar los scripts en el siguiente orden:
 
 1. `TP2_Mauricio_Borelli_01_create_database.sql`
