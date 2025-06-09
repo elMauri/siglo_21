@@ -94,7 +94,8 @@ b)	Para compilar:
 c)	Copiar el driver en el jar de destino:
 `cp -r " src/resources bin`
 d)	Crear MANIFEST si no existe
-    ```git config --list
+    ```
+    git config --list
     if [ ! -f MANIFEST.MF ]; then
     echo "# Generando MANIFEST.MF..."
     echo "Manifest-Version: 1.0" > MANIFEST.MF
