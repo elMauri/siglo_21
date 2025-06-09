@@ -61,23 +61,24 @@ Haber ejecutado la primera parte correspondiente a MySQL y scripts de base de da
 2. **Descarga del código**:
 Para descargar el codigo necesario para su correcto funcionamiento, es necesario clonar este repositorio desde github:
 
-    https://github.com/elMauri/siglo_21.git
+https://github.com/elMauri/siglo_21.git
 
-    con el comando:
+con el comando:
 
-    `git clone https://github.com/elMauri/siglo_21.git`
+`git clone https://github.com/elMauri/siglo_21.git`
 
-    Una vez descargado, ubicarse en el directorio:
+Una vez descargado, ubicarse en el directorio:
 
-    `seminario_practica_inf/tp3`
+`seminario_practica_inf/tp3`
 <br>
 3. **Configuración**:
 Para que la aplicación funcione, además, es necesario configurar los datos de conexión a la BBDD mencionada. Eso se realiza desde el archivo config.properties ubicado en src/resources debiendo modificar las siguientes keys:
-db.host=127.0.0.1 <- Ingresar la ip de donde corre la BBDD
-db.port=3306 <- ingresar el puerto donde corre la BBDD
-db.name=FACEENTRY <- dejarlo tal cual
-db.user=’’ <- completar con el nombre de usuario con el que se corrieron los scripts sql
-db.password=’’ <- completar con la password del usuario con el que se corrieron los scripts sql
+
+`db.host=127.0.0.1` <- Ingresar la ip de donde corre la BBDD
+`db.port=3306` <- ingresar el puerto donde corre la BBDD
+`db.name=FACEENTRY` <- dejarlo tal cual
+`db.user=<name>` <- completar con el nombre de usuario con el que se corrieron los scripts sql
+`db.password=<password>` <- completar con la password del usuario con el que se corrieron los scripts sql
 <br>
 4. **Compilación**:
 La Interfaz de usuario de dicha la aplicación esta hecha en Java Swing y al conectarse con la BBDD Mysql fue necesario agregar entre el codigo fuente el jar correspondiente a los drivers. Dicho jar se encuentra ubicado en `tp3/lib`.
@@ -94,16 +95,15 @@ b)	Para compilar:
 c)	Copiar el driver en el jar de destino:
 `cp -r " src/resources bin`
 d)	Crear MANIFEST si no existe
-    ```
-    git config --list
-    if [ ! -f MANIFEST.MF ]; then
-    echo "# Generando MANIFEST.MF..."
-    echo "Manifest-Version: 1.0" > MANIFEST.MF
-    echo "Main-Class: $MAIN_CLASS" >> MANIFEST.MF
-    echo "" >> MANIFEST.MF
-    fi
-    ```
-    e)	Para empaquetar el JAR:
+```
+if [ ! -f MANIFEST.MF ]; then
+echo "# Generando MANIFEST.MF..."
+echo "Manifest-Version: 1.0" > MANIFEST.MF
+echo "Main-Class: $MAIN_CLASS" >> MANIFEST.MF
+echo "" >> MANIFEST.MF
+fi 
+```   
+e)	Para empaquetar el JAR:
 `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
 <br>
 5. **Ejecución**:
