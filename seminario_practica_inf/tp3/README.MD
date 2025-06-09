@@ -91,9 +91,9 @@ Finalmente para compilar será necesario estar ubicado en el directorio:
     a)	Para obtener el listado de todos los archivos .java necesarios:
 `find src/com -name "*.java" > sources.txt`
 b)	Para compilar:
-`javac -cp "lib/mysql-connector-j-8.2.0.jar" -d bin @sources.txt`
+`javac -cp "lib/mysql-connector-j-8.2.0.jar" -d bin @sources.txt`<br>
 c)	Copiar el driver en el jar de destino:
-`cp -r " src/resources bin`
+`cp -r " src/resources bin`<br>
 d)	Crear MANIFEST si no existe
     ```
     if [ ! -f MANIFEST.MF ]; then
@@ -102,7 +102,7 @@ d)	Crear MANIFEST si no existe
     echo "Main-Class: $MAIN_CLASS" >> MANIFEST.MF
     echo "" >> MANIFEST.MF
     fi 
-    ```   
+    ```   <br>
 e)	Para empaquetar el JAR:
     `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
 
