@@ -56,8 +56,8 @@ Para la creación y poblado del modelo de datos se dejen ejecutar los scripts en
 ###### INSTALACION Y EJECUCION DE LA APLICACION:
 
 1. **Pre-requisitos**:
-Haber ejecutado la primera parte correspondiente a MySQL y scripts de base de datos, ya que forman parte del modelo y de los datos necesarios para 
-<br>
+Haber ejecutado la primera parte correspondiente a MySQL y scripts de base de datos, ya que forman parte del modelo y de los datos necesarios para su correcta ejecución.
+
 2. **Descarga del código**:
 Para descargar el codigo necesario para su correcto funcionamiento, es necesario clonar este repositorio desde github:
 
@@ -70,7 +70,7 @@ con el comando:
 Una vez descargado, ubicarse en el directorio:
 
 `seminario_practica_inf/tp3`
-<br>
+
 3. **Configuración**:
 Para que la aplicación funcione, además, es necesario configurar los datos de conexión a la BBDD mencionada. Eso se realiza desde el archivo config.properties ubicado en src/resources debiendo modificar las siguientes keys:
 
@@ -79,7 +79,7 @@ Para que la aplicación funcione, además, es necesario configurar los datos de 
 `db.name=FACEENTRY` <- dejarlo tal cual
 `db.user=<name>` <- completar con el nombre de usuario con el que se corrieron los scripts sql
 `db.password=<password>` <- completar con la password del usuario con el que se corrieron los scripts sql
-<br>
+
 4. **Compilación**:
 La Interfaz de usuario de dicha la aplicación esta hecha en Java Swing y al conectarse con la BBDD Mysql fue necesario agregar entre el codigo fuente el jar correspondiente a los drivers. Dicho jar se encuentra ubicado en `tp3/lib`.
 Finalmente para compilar será necesario estar ubicado en el directorio:
@@ -95,14 +95,14 @@ b)	Para compilar:
 c)	Copiar el driver en el jar de destino:
 `cp -r " src/resources bin`
 d)	Crear MANIFEST si no existe
-```
-if [ ! -f MANIFEST.MF ]; then
-echo "# Generando MANIFEST.MF..."
-echo "Manifest-Version: 1.0" > MANIFEST.MF
-echo "Main-Class: $MAIN_CLASS" >> MANIFEST.MF
-echo "" >> MANIFEST.MF
-fi 
-```   
+    ```
+    if [ ! -f MANIFEST.MF ]; then
+    echo "# Generando MANIFEST.MF..."
+    echo "Manifest-Version: 1.0" > MANIFEST.MF
+    echo "Main-Class: $MAIN_CLASS" >> MANIFEST.MF
+    echo "" >> MANIFEST.MF
+    fi 
+    ```   
 e)	Para empaquetar el JAR:
 `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
 <br>
