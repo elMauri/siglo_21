@@ -1,5 +1,5 @@
 ## Seminario de Práctica de Informática
-### Trabajo Práctico Nro 2
+#### Trabajo Práctico Nro 2
 ##### Titular Experto: HUGO FERNANDO FRIAS
 ##### Profesor Titular Disciplinar: PABLO ALEJANDRO VIRGOLINI
 ##### Alumno: Mauricio David Borelli
@@ -39,5 +39,5 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=<una_password> -d mysql:late
 Para la creación y poblado del modelo de datos se dejen ejecutar los scripts en el siguiente orden:
 
 1. `TP2_Mauricio_Borelli_01_create_database.sql`
-2. `TP2_Mauricio_Borelli_01_create_database.sql`
-3. `TP2_Mauricio_Borelli_01_create_database.sql`
+2. `TP2_Mauricio_Borelli_02_create_tables.sql`
+3. `TP2_Mauricio_Borelli_03_insert_data.sql`
