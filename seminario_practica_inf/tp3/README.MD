@@ -74,20 +74,20 @@ Una vez descargado, ubicarse en el directorio:
 3. **Configuración**:
 Para que la aplicación funcione, además, es necesario configurar los datos de conexión a la BBDD mencionada. Eso se realiza desde el archivo config.properties ubicado en src/resources debiendo modificar las siguientes keys:
 
-`db.host=127.0.0.1` <- Ingresar la ip de donde corre la BBDD
-`db.port=3306` <- ingresar el puerto donde corre la BBDD
-`db.name=FACEENTRY` <- dejarlo tal cual
-`db.user=<name>` <- completar con el nombre de usuario con el que se corrieron los scripts sql
-`db.password=<password>` <- completar con la password del usuario con el que se corrieron los scripts sql
+    `db.host=127.0.0.1` <- Ingresar la ip de donde corre la BBDD
+    `db.port=3306` <- ingresar el puerto donde corre la BBDD
+    `db.name=FACEENTRY` <- dejarlo tal cual
+    `db.user=<name>` <- completar con el nombre de usuario con el que se corrieron los scripts sql
+    `db.password=<password>` <- completar con la password del usuario con el que se corrieron los scripts sql
 
 4. **Compilación**:
 La Interfaz de usuario de dicha la aplicación esta hecha en Java Swing y al conectarse con la BBDD Mysql fue necesario agregar entre el codigo fuente el jar correspondiente a los drivers. Dicho jar se encuentra ubicado en `tp3/lib`.
 Finalmente para compilar será necesario estar ubicado en el directorio:
-<br>
+
     `~/seminario_practica_inf/tp3`
-<br>
+
     Y ejecutar desde linea de comandos:
-    <br>
+
     a)	Para obtener el listado de todos los archivos .java necesarios:
 `find src/com -name "*.java" > sources.txt`
 b)	Para compilar:
@@ -103,16 +103,16 @@ d)	Crear MANIFEST si no existe
     echo "" >> MANIFEST.MF
     fi 
     ```   
-e)	Para empaquetar el JAR:
-`jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
-<br>
+    e)	Para empaquetar el JAR:
+    `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
+
 5. **Ejecución**:
 Luego de ejecutar el paso anterior, para correr la aplicación será suficiente con ejecutar el siguiente comando:
 `java -cp "FaceEntry.jar:/lib/ mysql-connector-j-8.2.0.jar" com.faceentry.app.FaceEntryApp`
-<br>
-    <u>**NOTA**</u>: PARA SIMPLIFICAR SU COMPILCACION Y EJECUCION SE DEJA UN SCRIPT BASH DE NOMBRE: `build_and_run.sh`  QUE EJECUTA LOS PASOS DEL 4 AL 5 PARA SU AUTOMATIZACIÓN Y SIMPLIFICACIÓN.
-<br>
-    Basta con ejecutar:
-    `./build_and_run.sh`
-    <br>
-    A SU VEZ SE DEJA LA CARPETA `sql` EN ESTE DIRECTORIO PARA FACILITAR SU UBICACION.
+
+<u>**NOTA**</u>: PARA SIMPLIFICAR SU COMPILCACION Y EJECUCION SE DEJA UN SCRIPT BASH DE NOMBRE: `build_and_run.sh`  QUE EJECUTA LOS PASOS DEL 4 AL 5 PARA SU AUTOMATIZACIÓN Y SIMPLIFICACIÓN.
+
+Basta con ejecutar:
+`./build_and_run.sh`
+
+A SU VEZ SE DEJA LA CARPETA `sql` EN ESTE DIRECTORIO PARA FACILITAR SU UBICACION.
