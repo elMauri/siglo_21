@@ -103,7 +103,7 @@ d)	Crear MANIFEST si no existe
     echo "" >> MANIFEST.MF
     fi 
     ```   
-    e)	Para empaquetar el JAR:
+e)	Para empaquetar el JAR:
     `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
 
 5. **Ejecución**:
