@@ -61,15 +61,15 @@ Haber ejecutado la primera parte correspondiente a MySQL y scripts de base de da
 2. **Descarga del código**:
 Para descargar el codigo necesario para su correcto funcionamiento, es necesario clonar este repositorio desde github:
 
-https://github.com/elMauri/siglo_21.git
+    https://github.com/elMauri/siglo_21.git
 
-con el comando:
+    con el comando:
 
-`git clone https://github.com/elMauri/siglo_21.git`
+    `git clone https://github.com/elMauri/siglo_21.git`
 
-Una vez descargado, ubicarse en el directorio:
+    Una vez descargado, ubicarse en el directorio:
 
-`seminario_practica_inf/tp3`
+    `seminario_practica_inf/tp3`
 
 3. **Configuración**:
 Para que la aplicación funcione, además, es necesario configurar los datos de conexión a la BBDD mencionada. Eso se realiza desde el archivo config.properties ubicado en src/resources debiendo modificar las siguientes keys:
