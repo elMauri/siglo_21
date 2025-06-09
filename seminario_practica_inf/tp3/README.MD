@@ -94,7 +94,7 @@ b)	Para compilar:
 c)	Copiar el driver en el jar de destino:
 `cp -r " src/resources bin`
 d)	Crear MANIFEST si no existe
-    ```
+    ```git config --list
     if [ ! -f MANIFEST.MF ]; then
     echo "# Generando MANIFEST.MF..."
     echo "Manifest-Version: 1.0" > MANIFEST.MF
@@ -113,3 +113,5 @@ Luego de ejecutar el paso anterior, para correr la aplicación será suficiente 
 <br>
     Basta con ejecutar:
     `./build_and_run.sh`
+    <br>
+    A SU VEZ SE DEJA LA CARPETA `sql` EN ESTE DIRECTORIO PARA FACILITAR SU UBICACION.
