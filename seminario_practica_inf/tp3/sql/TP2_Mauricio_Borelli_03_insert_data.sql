@@ -44,4 +44,4 @@ INSERT INTO EmpleadoRepositorio (id_empleado, rutaImagenBiometrica)
 VALUES 
   (1, '/imagenes/biometricas/A1001.jpg'),
   (2, '/imagenes/biometricas/A1002.jpg'),
-  (3, '/imagenes/biometricas/A1002.jpg');
+  (3, '/imagenes/biometricas/A1003.jpg');
