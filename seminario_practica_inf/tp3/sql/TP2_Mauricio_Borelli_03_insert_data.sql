@@ -1,6 +1,5 @@
 USE FACEENTRY;
 
-
 -- Insertar empleados
 INSERT INTO Empleado (id_jefe, dni, nombre, apellido, legajo, estado, cargo)
 VALUES 
@@ -43,5 +42,6 @@ VALUES
 -- Rutas de imágenes biométricas
 INSERT INTO EmpleadoRepositorio (id_empleado, rutaImagenBiometrica)
 VALUES 
-  (2, '/imagenes/biometricas/empleado_2.jpg'),
-  (3, '/imagenes/biometricas/empleado_3.jpg');
+  (1, '/imagenes/biometricas/A1001.jpg'),
+  (2, '/imagenes/biometricas/A1002.jpg'),
+  (3, '/imagenes/biometricas/A1002.jpg');
