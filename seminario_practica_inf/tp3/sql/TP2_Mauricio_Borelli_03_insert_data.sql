@@ -3,7 +3,7 @@ USE FACEENTRY;
 -- Insertar empleados
 INSERT INTO Empleado (id_jefe, dni, nombre, apellido, legajo, estado, cargo)
 VALUES 
-  (NULL, '29826734', 'Ana', 'Lopez', 'A1001', 'Activo', 'Jefa de Área'),
+  (NULL, '29826734', 'Ana', 'Lopez', 'A1001', 'Activo', 'Jefe de Área'),
   (1, '32790298', 'Juan', 'Perez', 'A1002', 'Activo', 'Desarrollador'),
   (1, '28616213', 'Maria', 'Gomez', 'A1003', 'Activo', 'Tester'),
   (1, '33423439', 'Pedro', 'Martínez', 'A1004', 'Activo', 'Tester'),
