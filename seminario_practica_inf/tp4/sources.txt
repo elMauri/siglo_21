@@ -1,0 +1,4 @@
+src/com/faceentry/app/FaceEntryApp.java
+src/com/faceentry/modelo/Empleado.java
+src/com/faceentry/modelo/Persona.java
+src/com/faceentry/db/ConexionDB.java
