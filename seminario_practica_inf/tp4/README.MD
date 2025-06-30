@@ -1,9 +1,9 @@
 ## Seminario de Práctica de Informática
-#### Trabajo Práctico Nro 3
+#### Trabajo Práctico Nro 4
 ##### Titular Experto: HUGO FERNANDO FRIAS
 ##### Profesor Titular Disciplinar: PABLO ALEJANDRO VIRGOLINI
 ##### Alumno: Mauricio David Borelli
-##### Fecha de Entrega: 08/06/2025
+##### Fecha de Entrega: 29/06/2025
 ##### DNI: 28.916.713
 <br>
 
@@ -46,7 +46,7 @@ Para la creación y poblado del modelo de datos se dejen ejecutar los scripts en
 
 
 
-##### <u>NOTA</u>: HASTA ACA CORRESPONDE AL TRABAJO PRACTICO NRO 2, YA QUE ES NECESARIO PARA QUE FUNCIONE LA APP DEL TRABAJO PRACTICO NRO 3
+##### <u>NOTA</u>: HASTA ACA CORRESPONDE AL TRABAJO PRACTICO NRO 2, YA QUE ES NECESARIO PARA QUE FUNCIONE LA APP DEL TRABAJO PRACTICO NRO 4
 
 *********************************************************************************************************************
 ## Aplicación Java
@@ -69,7 +69,7 @@ Para descargar el codigo necesario para su correcto funcionamiento, es necesario
 
     Una vez descargado, ubicarse en el directorio:
 
-    `seminario_practica_inf/tp3`
+    `seminario_practica_inf/tp4`
 
 3. **Configuración**:
 Para que la aplicación funcione, además, es necesario configurar los datos de conexión a la BBDD mencionada. Eso se realiza desde el archivo config.properties ubicado en src/resources debiendo modificar las siguientes keys:
@@ -81,10 +81,10 @@ Para que la aplicación funcione, además, es necesario configurar los datos de 
     `db.password=<password>` <- completar con la password del usuario con el que se corrieron los scripts sql
 
 4. **Compilación**:
-La Interfaz de usuario de dicha la aplicación esta hecha en Java Swing y al conectarse con la BBDD Mysql fue necesario agregar entre el codigo fuente el jar correspondiente a los drivers. Dicho jar se encuentra ubicado en `tp3/lib`.
+La Interfaz de usuario de dicha la aplicación esta hecha en Java Swing y al conectarse con la BBDD Mysql fue necesario agregar entre el codigo fuente el jar correspondiente a los drivers. Dicho jar se encuentra ubicado en `tp4/lib`.
 Finalmente para compilar será necesario estar ubicado en el directorio:
 
-    `~/seminario_practica_inf/tp3`
+    `~/seminario_practica_inf/tp4`
 
     Y ejecutar desde linea de comandos:
 
@@ -106,7 +106,7 @@ d)	Crear MANIFEST si no existe
 e)	Para empaquetar el JAR:
     `jar cfm "FaceEntryApp.jar" MANIFEST.MF -C “./bin” .`
 
-5. **Ejecución**:
+1. **Ejecución**:
 Luego de ejecutar el paso anterior, para correr la aplicación será suficiente con ejecutar el siguiente comando:
 `java -cp "FaceEntry.jar:/lib/ mysql-connector-j-8.2.0.jar" com.faceentry.app.FaceEntryApp`
 
